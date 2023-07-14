@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+body{
+    font-family: 'PT Serif', serif; 
+}
+
+
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 110px 250px 0 250px;
+}
+.org_div{
+    padding: 30px;
+}
+.org_div h1{
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1.62px;
+    
+}
+.org_div h3{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.org_div p{
+    max-width:440px ;
+    color: #000000a2;
+    font-size: 18px;
+    font-weight: 400;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 150px;
+}
+.team_box{
+    position: relative;
+    margin-right: 50px;
+}
+.team_box img{
+    width: 240px;
+    border-radius: 10px;
+}
+.team_box small{
+    writing-mode:vertical-lr;
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: absolute;
+    padding: 5px;
+    top: 0;
+}
+.team_box h2{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.down{
+    margin-top: 150px;
+}
+@media screen and (max-width:702px) {
+    header{
+        flex-direction:column;
+        padding: 25px;
+    }
+    .team_box img{
+        width: 200px;
+    }
+    main{
+        margin: 10px 10px;
+    }
+    .team_box{
+        margin-right: 45px;
+    }
+    .m_down{
+        margin-top: 50px;
+    }
+    .up {
+        margin-top: -80px;
+    }
+}
+
+@media screen and (min-width:702px) and (max-width:1286px) {
+    header{
+        flex-direction:column;
+        padding: 25px;
+    }
+    main{
+        margin: 50px 50px;
+    }
+    .team_box{
+        margin-right: 50px;
+    }
+    .m_down{
+        margin-top: 50px;
+    }
+    .ddown{
+        margin-top: 200px;
+    }
+}
